@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .navbar a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+  }
+
+  .intro {
+    height: 100px;
+    background-color: #f7f5f5;
+  }
+  
+  p{
+    visibility: hidden;
+  }
