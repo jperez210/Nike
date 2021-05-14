@@ -12,19 +12,40 @@
     width: 100%;
   }
   
-  .navbar a {
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    color: black;
-  }
+.navbar a {
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
 
-  .intro {
-    height: 100px;
-    background-color: #f7f5f5;
-  }
-  
-  p{
-    visibility: hidden;
-  }
+.img-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.intro {
+  height: 140px;
+  background-color: #f7f5f5;
+}
+
+img {
+   width: 100%;
+  height: auto;
+}
+
+.nike {
+  max-width: 52px;
+}
+
+.jordan {
+  max-width: 32px;
+  left: 40px;
+  position: relative;
+}
+p {
+  text-align: center;
+}
